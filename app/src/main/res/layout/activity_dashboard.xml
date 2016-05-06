@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.pooja.notifyv10.Dashboard"
+    android:background="#3F51B5"
+    >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextmsg"
+        android:textColor="#ffff"
+        />
+    <Button
+        android:id="@+id/buttonPush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="135dp"
+        android:textSize="20sp"
+        android:textColor="#3F51B5"
+        android:background="#ffff"
+        />
+
+    <CheckBox android:id="@+id/checkbox_general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENERAL"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+    <CheckBox android:id="@+id/checkbox_ieee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IEEE"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+    <CheckBox android:id="@+id/checkbox_acm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACM"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+    <CheckBox android:id="@+id/checkbox_iet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IET"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+    <CheckBox android:id="@+id/checkbox_artcircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARTCIRCLE"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+    <CheckBox android:id="@+id/checkbox_sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPORTS"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+    <CheckBox android:id="@+id/checkbox_cultural"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CULTURAL"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffff"
+        />
+
+
+
+
+
+
+</RelativeLayout>
